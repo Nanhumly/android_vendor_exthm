@@ -22,6 +22,11 @@ PRODUCT_PACKAGES += \
     bootanimation.zip \
     bootanimation-dark.zip
 
+# Charger mode images
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME \
