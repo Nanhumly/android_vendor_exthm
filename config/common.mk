@@ -15,6 +15,13 @@ include vendor/exthm/config/sounds.mk
 
 $(call inherit-product-if-exists, vendor/gms/config.mk)
 
+# Bootanimation
+TARGET_SCREEN_WIDTH ?= 1080
+TARGET_SCREEN_HEIGHT ?= 1920
+PRODUCT_PACKAGES += \
+    bootanimation.zip \
+    bootanimation-dark.zip
+
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME \
